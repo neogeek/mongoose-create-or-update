@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@neogeek/eslint-config-standards"
+  ],
+  "rules": {
+    "func-names": 0,
+    "newline-per-chained-call": 0
+  }
+}

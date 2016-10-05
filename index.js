@@ -1,0 +1,19 @@
+module.exports = scheme => {
+
+    scheme.statics.createOrUpdate = function (query, update, options) {
+
+        return this.findOne(query).exec().then(doc => {
+
+            if (!doc) {
+
+                return this.create(update, options);
+
+            }
+
+            return doc.update(update, options).exec();
+
+        });
+
+    };
+
+};

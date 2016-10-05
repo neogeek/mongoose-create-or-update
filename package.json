@@ -1,0 +1,38 @@
+{
+  "name": "mongoose-create-or-update",
+  "description": "Mongoose plugin for creating and updating documents in a single statement that returns Promises.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@neogeek/eslint-config-standards": "1.6.0",
+    "eslint": "3.7.1",
+    "mocha": "3.1.0",
+    "mongoose": "^4.6.x"
+  },
+  "peerDependencies": {
+    "mongoose": "^4.6.x"
+  },
+  "scripts": {
+    "test": "eslint index.js test/specs/**/*.js && mocha test/specs/**/*.js"
+  },
+  "keywords": [
+    "mongoose",
+    "plugin"
+  ],
+  "authors": [
+    {
+      "name": "Scott Doxey",
+      "email": "hello@scottdoxey.com",
+      "homepage": "http://scottdoxey.com/"
+    }
+  ],
+  "homepage": "https://github.com/neogeek/mongoose-create-or-update",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neogeek/mongoose-create-or-update.git"
+  }
+}
