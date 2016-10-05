@@ -2,6 +2,10 @@
 
 > Mongoose plugin for creating and updating documents in a single statement that returns Promises.
 
+[![Build Status](https://travis-ci.org/neogeek/mongoose-create-or-update.svg?branch=master)](https://travis-ci.org/neogeek/mongoose-create-or-update)
+[![NPM Version](http://img.shields.io/npm/v/mongoose-create-or-update.svg?style=flat)](https://www.npmjs.org/package/mongoose-create-or-update)
+
+
 ## Install
 
 ```bash
