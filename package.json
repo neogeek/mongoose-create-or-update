@@ -1,6 +1,6 @@
 {
   "name": "mongoose-create-or-update",
-  "description": "Mongoose plugin for creating and updating documents in a single statement that returns Promises.",
+  "description": "A Promise-based Mongoose plugin for creating and updating documents in a single statement.",
   "version": "1.0.0",
   "main": "index.js",
   "engines": {

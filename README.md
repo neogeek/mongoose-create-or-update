@@ -1,6 +1,6 @@
 # mongoose-create-or-update
 
-> Mongoose plugin for creating and updating documents in a single statement that returns Promises.
+> A Promise-based Mongoose plugin for creating and updating documents in a single statement.
 
 [![Build Status](https://travis-ci.org/neogeek/mongoose-create-or-update.svg?branch=master)](https://travis-ci.org/neogeek/mongoose-create-or-update)
 [![NPM Version](http://img.shields.io/npm/v/mongoose-create-or-update.svg?style=flat)](https://www.npmjs.org/package/mongoose-create-or-update)
