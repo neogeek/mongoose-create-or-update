@@ -10,7 +10,7 @@
   "devDependencies": {
     "@neogeek/eslint-config-standards": "1.6.2",
     "eslint": "3.7.1",
-    "mocha": "3.1.0",
+    "mocha": "3.1.2",
     "mongoose": "^4.6.x"
   },
   "peerDependencies": {
