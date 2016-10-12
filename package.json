@@ -9,7 +9,9 @@
   "license": "MIT",
   "devDependencies": {
     "@neogeek/eslint-config-standards": "1.6.2",
+    "codecov": "1.0.1",
     "eslint": "3.7.1",
+    "istanbul": "0.4.5",
     "mocha": "3.1.2",
     "mongoose": "^4.6.x"
   },
@@ -17,7 +19,7 @@
     "mongoose": "^4.6.x"
   },
   "scripts": {
-    "test": "eslint index.js test/specs/**/*.js && mocha test/specs/**/*.js"
+    "test": "make test"
   },
   "keywords": [
     "mongoose",
