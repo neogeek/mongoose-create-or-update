@@ -19,7 +19,7 @@
     "mongoose": "^4.6.x"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make lint && make coverage"
   },
   "keywords": [
     "mongoose",
