@@ -6,7 +6,7 @@ module.exports = scheme => {
 
             if (!doc) {
 
-                return this.create(update, options);
+                return this.create(update);
 
             }
 
