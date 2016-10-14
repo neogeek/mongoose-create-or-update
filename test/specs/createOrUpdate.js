@@ -44,7 +44,7 @@ describe('createOrUpdate', () => {
             'contents': 'Lorem ipsum dolor sit amet'
         }).then(data => {
 
-            dataId = data._id;
+            dataId = data._id.toString();
 
             done();
 
@@ -64,7 +64,7 @@ describe('createOrUpdate', () => {
             'contents': 'Hello, world!'
         }).then(data => {
 
-            assert.equal(data._id, dataId);
+            assert.equal(data._id.toString(), dataId);
             assert.equal(data.contents, 'Hello, world!');
 
             done();
