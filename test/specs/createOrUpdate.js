@@ -41,8 +41,6 @@ describe('createOrUpdate', () => {
         dataModel.createOrUpdate({
             '_id': dataId
         }, {
-
-            '_id': dataId,
             'contents': 'Lorem ipsum dolor sit amet'
         }).then(data => {
 
@@ -63,8 +61,6 @@ describe('createOrUpdate', () => {
         dataModel.createOrUpdate({
             '_id': dataId
         }, {
-
-            '_id': dataId,
             'contents': 'Hello, world!'
         }).then(data => {
 

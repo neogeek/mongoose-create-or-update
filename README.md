@@ -33,8 +33,6 @@ let dataId = null;
 dataModel.createOrUpdate({
     '_id': dataId
 }, {
-
-    '_id': dataId,
     'contents': 'Lorem ipsum dolor sit amet'
 }).then(data => {
 
