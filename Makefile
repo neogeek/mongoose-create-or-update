@@ -10,4 +10,7 @@ lint:
 coverage:
 	$(BIN)/istanbul cover $(BIN)/_mocha ./test/specs && $(BIN)/codecov
 
+docs:
+	$(BIN)/doxdox index.js --layout Markdown --package package.json --output DOCUMENTATION.md
+
 .PHONY: test coverage

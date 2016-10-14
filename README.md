@@ -46,3 +46,7 @@ dataModel.createOrUpdate({
 
 });
 ```
+
+## Documentation
+
+View full documentation [here](DOCUMENTATION.md).
