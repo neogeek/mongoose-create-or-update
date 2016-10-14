@@ -10,7 +10,8 @@ module.exports = scheme => {
 
             }
 
-            return doc.update(update, options).exec();
+            return doc.update(update, options).exec().then(() =>
+                this.findOne(query).exec());
 
         });
 
