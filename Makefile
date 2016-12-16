@@ -2,13 +2,15 @@ BIN=node_modules/.bin
 
 test:
 	make lint
-	$(BIN)/mocha test/specs/**/*.js
+	$(BIN)/mocha test/specs/
+	$(BIN)/doxdox index.js --layout Markdown --package package.json | diff DOCUMENTATION.md -
 
 lint:
-	$(BIN)/eslint index.js test/specs/**/*.js
+	$(BIN)/eslint index.js
+	$(BIN)/eslint test/specs/
 
 coverage:
-	$(BIN)/istanbul cover $(BIN)/_mocha ./test/specs && $(BIN)/codecov
+	$(BIN)/istanbul cover $(BIN)/_mocha test/specs/ && $(BIN)/codecov
 
 docs:
 	$(BIN)/doxdox index.js --layout Markdown --package package.json --output DOCUMENTATION.md
