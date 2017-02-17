@@ -1,5 +1,7 @@
 # mongoose-create-or-update
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/neogeek/mongoose-create-or-update.svg)](https://greenkeeper.io/)
+
 > A Promise-based Mongoose plugin for creating and updating documents in a single statement.
 
 [![Build Status](https://travis-ci.org/neogeek/mongoose-create-or-update.svg?branch=master)](https://travis-ci.org/neogeek/mongoose-create-or-update)
