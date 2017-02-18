@@ -8,13 +8,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "1.11.0",
+    "@neogeek/eslint-config-standards": "1.13.0",
     "codecov": "1.0.1",
-    "doxdox": "2.0.1",
-    "eslint": "3.13.1",
+    "doxdox": "2.0.2",
+    "eslint": "3.15.0",
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
-    "mongoose": "4.7.6"
+    "mongoose": "4.8.3"
   },
   "peerDependencies": {
     "mongoose": "~4.7.6"
