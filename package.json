@@ -14,7 +14,7 @@
     "eslint": "3.16.1",
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
-    "mongoose": "4.8.5"
+    "mongoose": "4.8.6"
   },
   "peerDependencies": {
     "mongoose": "~4.8.5"
