@@ -1,4 +1,4 @@
-# [mongoose-create-or-update](https://github.com/neogeek/mongoose-create-or-update) *1.0.2*
+# [mongoose-create-or-update](https://github.com/neogeek/mongoose-create-or-update) *1.0.3*
 
 > A Promise-based Mongoose plugin for creating and updating documents in a single statement.
 
