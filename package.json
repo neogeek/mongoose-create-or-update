@@ -13,7 +13,7 @@
     "doxdox": "^2.0.2",
     "eslint": "^4.3.0",
     "istanbul": "^0.4.5",
-    "mocha": "^4.0.1",
+    "mocha": "^6.1.0",
     "mongoose": "^4.9.2"
   },
   "peerDependencies": {
